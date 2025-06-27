@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class DiceGame{
     public static void main(String[] args){
      Random rand = new Random();
-     Scanner sc = new Scanner();
+     Scanner sc = new Scanner(System.in);
 
      System.out.println("What is your name ?");
      String name = sc.nextLine();
-     System.out.println("Hell," + name);
+     System.out.println("Hello," + name + "!");
        
      
      System.out.println("Rolling Dice...");
