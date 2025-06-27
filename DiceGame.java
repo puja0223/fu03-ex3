@@ -1,9 +1,16 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class DiceGame{
     public static void main(String[] args){
      Random rand = new Random();
+     Scanner sc = new Scanner();
 
+     System.out.println("What is your name ?");
+     String name = sc.nextLine();
+     System.out.println("Hell," + name);
+       
+     
      System.out.println("Rolling Dice...");
 
      int die1 = rand.nextInt(6)+1;
